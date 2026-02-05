@@ -23,7 +23,13 @@ import os
 from datetime import datetime
 from typing import Dict, List, Tuple
 
-from metrics import aggregate_mean, default_metric_registry, score_prediction, refusal_rate, banned_terms_hit
+from src.metrics import (
+    aggregate_mean,
+    default_metric_registry,
+    score_prediction,
+    refusal_rate,
+    banned_terms_hit,
+)
 
 
 # -------------------------
